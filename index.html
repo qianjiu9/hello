@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+   <p>
+      SCORE:<span id="score">0</span>
+   </p>
+   <div id="playground">
+   	<div id="c00" class="cell"></div>
+   	<div id="c01" class="cell"></div>
+   	<div id="c02" class="cell"></div>
+   	<div id="c03" class="cell"></div>
+   	<div id="c10" class="cell"></div>
+   	<div id="c11" class="cell"></div>
+   	<div id="c12" class="cell"></div>
+   	<div id="c13" class="cell"></div>
+   	<div id="c20" class="cell"></div>
+   	<div id="c21" class="cell"></div>
+   	<div id="c22" class="cell"></div>
+   	<div id="c23" class="cell"></div>
+   	<div id="c30" class="cell"></div>
+   	<div id="c31" class="cell"></div>
+   	<div id="c32" class="cell"></div>
+   	<div id="c33" class="cell"></div>
+   </div>
+   <div id="gameOver">
+      <p>
+         GAMEOVER!<br>
+         SCORE:<span id="final"></span><br>
+         <a class="btn" onclick="game.start()">try again!</a>
+      </p>
+   </div>
+   <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
